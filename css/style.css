@@ -2,7 +2,7 @@ html {
     height: 100%;
 }
 
-body {
+.body {
     height: 100%;
     background-color:purple;
     color:lightgreen;
@@ -10,9 +10,17 @@ body {
 a {
     text-decoration: none;
 }
-
+.header {
+    display:flex;
+    justify-content:center;
+}
+.navbar {
+    display:flex;
+    justify-content:space-between;
+}
 .main {
     height: 100%;
+    background-image:url("https://mobileimages.lowes.com/product/converted/733259/733259384576lg.jpg");
 }
 .social-image{
     width: 30px;
@@ -21,4 +29,31 @@ a {
 .thumbnail-image {
     width:100px;
     height:100px;
+}
+.thumbnail {
+    display: flex;
+    justify-content:space-between;
+}
+.footer {
+}
+.social{
+    display: flex;
+    justify-content:center;
+}
+.copyright {
+    display: flex;
+    justify-content:space-around;
+}
+
+.aboutMain {
+    display: flex;
+}
+.leftPane {
+    width:50%;
+}
+.rightPane {
+    width:50%;
+}
+.aboutImg {
+    width:250px;
 }
